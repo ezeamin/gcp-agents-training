@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments & Local Configuration
+.env
+*.env
+!.env.example
+.venv/
+venv/
+env/
+.adk/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Credentials, tokens and service account keys
+*-key.json
+credentials*.json
+*.pem
+
+# IDE files
+.idea/
+.vscode/
+*.swp
